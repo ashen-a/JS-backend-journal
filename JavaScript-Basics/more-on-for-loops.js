@@ -55,7 +55,7 @@ let teaCollection = ["earl grey", "green tea", "chai", "oolong tea"]
 let availableTeas = []
 
 teaCollection.forEach(element => {
-    // break nandd continue will give an error here because we are inside a function, they are only meant for loops
+    // break andd continue will give an error here because we are inside a function, they are only meant for loops
     if (element === "chai") {
         return;
     }    
@@ -65,7 +65,6 @@ console.log(availableTeas)
 
 let myWorldlCities = ["Berlin", "Tokyo", "Sydney", "Paris"] 
 let traveledCities = [] 
-
 // a total of 4 functions are being fired here
 myWorldlCities.forEach(city => {
     if (city === "Sydney"){
@@ -74,3 +73,16 @@ myWorldlCities.forEach(city => {
     traveledCities.push(city);
 });
 console.log(traveledCities)
+
+//!
+const arr = ['a', 'b', 'c'];
+
+// for...of iterates over values
+for (const value of arr) {
+  console.log(value); // 'a', 'b', 'c'
+}
+
+// for...in iterates over indices (keys)
+for (const index in arr) {
+  console.log(index); // '0', '1', '2'
+}   
