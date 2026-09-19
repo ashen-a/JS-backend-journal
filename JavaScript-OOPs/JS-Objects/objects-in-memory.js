@@ -49,7 +49,7 @@ console.log(y)
     fname:'Ayush',
     lname: 'D',
     }
-    let p2 = p1
+    let p2 = p1 .. this is not even a copy, this is just a reference passing
     p2.fname = 'Piyush'
     console.log(p2)
     console.log(p1)

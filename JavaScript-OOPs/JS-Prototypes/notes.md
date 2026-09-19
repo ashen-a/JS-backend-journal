@@ -1,0 +1,1 @@
+- Think of protoype like an object
