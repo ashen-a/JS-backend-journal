@@ -1,0 +1,8 @@
+/* Everything is cascedable */
+
+button {
+    display: block;
+}
+p {
+    display: inline;
+}

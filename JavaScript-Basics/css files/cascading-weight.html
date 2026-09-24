@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading-weight</title>
+    <!-- Specificity: tag -> class -> id -> inline -->
+    <style>
+        button {
+            color: red;
+        }
+
+        #btn-1 {
+            color: green;
+        }
+
+        .btn {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <button style="color: blueviolet;" class="btn" id="btn-1">Click me</button>
+</body>
+</html>
